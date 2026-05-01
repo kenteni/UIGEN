@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\anth\\\\uigen\" -Force)",
+      "Bash(Format-Table -AutoSize)",
+      "PowerShell(Get-ChildItem \"D:\\\\anth\\\\uigen\\\\img\\\\\" -Force | ForEach-Object { $_.Name })",
+      "PowerShell(Copy-Item *)",
+      "Bash(npm test *)",
+      "mcp__playwright",
+      "Bash(start *)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d \"{\\\\\"messages\\\\\":[{\\\\\"role\\\\\":\\\\\"user\\\\\",\\\\\"content\\\\\":\\\\\"Create a dashboard stats widget\\\\\"}],\\\\\"files\\\\\":{}}\" --max-time 60)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H 'Content-Type: application/json' -d '{\"messages\":[{\"role\":\"user\",\"content\":\"Create a pricing card component with three tiers\"}],\"files\":{}}' --max-time 60)"
+    ]
+  }
+}
