@@ -1,0 +1,87 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e46]
+  - generic [ref=e124]:
+    - generic [ref=e126]:
+      - heading "React Component Generator" [level=1] [ref=e128]
+      - generic [ref=e130]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e176]: Create a user profile card with avatar, name, bio, and social stats
+            - img [ref=e179]
+          - generic [ref=e182]:
+            - img [ref=e185]
+            - generic [ref=e189]:
+              - separator [ref=e195]
+              - generic [ref=e196]:
+                - paragraph [ref=e197]: "Done! Created a sleek user profile card with:"
+                - list [ref=e198]:
+                  - listitem [ref=e199]: Avatar with online status indicator
+                  - listitem [ref=e200]: Name and professional title
+                  - listitem [ref=e201]: Bio description
+                  - listitem [ref=e202]: Location
+                  - listitem [ref=e203]: Social stats (followers, following, posts)
+                  - listitem [ref=e204]: Social media icon links
+                  - listitem [ref=e205]: Follow button
+                - paragraph [ref=e206]: The design uses dark gradients and subtle accent colors for a modern look.
+          - generic [ref=e208]:
+            - generic [ref=e210]: "Fix the error: replace any lucide-react social brand icon imports (Github, Twitter, Linkedin, Instagram, etc.) with inline SVG or plain text labels — those icons don't exist in this version of lucide-react."
+            - img [ref=e213]
+          - generic [ref=e216]:
+            - img [ref=e219]
+            - generic [ref=e223]:
+              - separator [ref=e224]
+              - separator [ref=e230]
+              - paragraph [ref=e232]: Fixed! Replaced GitHub, Twitter, and LinkedIn brand icons with inline SVGs. The Mail icon from lucide-react is still used since it's a generic icon.
+        - generic [ref=e140]:
+          - textbox "Describe the React component you want to create..." [ref=e141]
+          - button [disabled] [ref=e142]:
+            - img [ref=e143]
+    - separator [ref=e146]
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - tablist [ref=e151]:
+          - tab "Preview" [selected] [ref=e152]
+          - tab "Code" [ref=e153]
+        - generic [ref=e154]:
+          - combobox [ref=e155]:
+            - img
+            - text: "Design #50693"
+            - img
+          - button "New Design" [ref=e156]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e157]:
+            - img
+      - iframe [ref=e207]:
+        - generic [ref=f16e7]:
+          - img "Avatar" [ref=f16e12]
+          - heading "Sarah Anderson" [level=2] [ref=f16e14]
+          - paragraph [ref=f16e15]: Product Designer
+          - paragraph [ref=f16e16]: Passionate about creating intuitive designs. Coffee enthusiast and design thinker.
+          - generic [ref=f16e17]:
+            - img [ref=f16e18]
+            - generic [ref=f16e21]: San Francisco, CA
+          - generic [ref=f16e22]:
+            - generic [ref=f16e23]:
+              - generic [ref=f16e24]: 2.4K
+              - generic [ref=f16e25]: Followers
+            - generic [ref=f16e26]:
+              - generic [ref=f16e27]: "847"
+              - generic [ref=f16e28]: Following
+            - generic [ref=f16e29]:
+              - generic [ref=f16e30]: "156"
+              - generic [ref=f16e31]: Posts
+          - generic [ref=f16e32]:
+            - link "GitHub" [ref=f16e33] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f16e34]
+            - link "Twitter" [ref=f16e36] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f16e37]
+            - link "LinkedIn" [ref=f16e39] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f16e40]
+            - link "Email" [ref=f16e43] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=f16e44]
+          - button "Follow" [ref=f16e47] [cursor=pointer]

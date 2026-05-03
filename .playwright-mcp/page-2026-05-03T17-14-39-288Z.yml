@@ -1,0 +1,140 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e111]
+  - generic [ref=e113]:
+    - generic [ref=e115]:
+      - heading "React Component Generator" [level=1] [ref=e117]
+      - generic [ref=e119]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e168]
+          - generic [ref=e171]:
+            - img [ref=e174]
+            - generic [ref=e178]:
+              - paragraph [ref=e180]: I'll create a dashboard widget with monthly revenue stats, including a chart and key metrics.
+              - separator [ref=e181]
+              - separator [ref=e188]
+              - separator [ref=e189]
+              - separator [ref=e190]
+              - generic [ref=e191]:
+                - paragraph [ref=e192]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e193]:
+                  - listitem [ref=e194]:
+                    - strong [ref=e195]: 4 Metric Cards
+                    - text: ": Displaying total revenue, average order value, monthly target progress, and growth rate with icons and trend indicators"
+                  - listitem [ref=e196]:
+                    - strong [ref=e197]: Bar Chart
+                    - text: ": Showing monthly revenue trends for all 12 months with hover tooltips"
+                  - listitem [ref=e198]:
+                    - strong [ref=e199]: Responsive Layout
+                    - text: ": Grid adapts from 1 column on mobile to 4 columns on desktop"
+                  - listitem [ref=e200]:
+                    - strong [ref=e201]: Clean Design
+                    - text: ": Uses Tailwind CSS with a professional color scheme and smooth interactions"
+                - paragraph [ref=e202]: The dashboard includes sample data for the full year and uses lucide-react icons for visual appeal.
+        - generic [ref=e129]:
+          - textbox "Describe the React component you want to create..." [ref=e130]
+          - button [disabled] [ref=e131]:
+            - img [ref=e132]
+    - separator [ref=e135]
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - tablist [ref=e140]:
+          - tab "Preview" [ref=e141]
+          - tab "Code" [selected] [ref=e142]
+        - generic [ref=e143]:
+          - combobox [ref=e144]:
+            - img
+            - text: "Design #85266"
+            - img
+          - button "New Design" [ref=e145]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e146]:
+            - img
+      - generic [ref=e203]:
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211] [cursor=pointer]:
+              - img [ref=e212]
+              - img [ref=e214]
+              - generic [ref=e216]: components
+            - generic [ref=e217]:
+              - generic [ref=e219] [cursor=pointer]:
+                - img [ref=e220]
+                - generic [ref=e225]: MetricCard.jsx
+              - generic [ref=e227] [cursor=pointer]:
+                - img [ref=e228]
+                - generic [ref=e233]: RevenueChart.jsx
+              - generic [ref=e235] [cursor=pointer]:
+                - img [ref=e236]
+                - generic [ref=e241]: RevenueDashboard.jsx
+          - generic [ref=e243] [cursor=pointer]:
+            - img [ref=e244]
+            - generic [ref=e249]: App.jsx
+        - separator [ref=e250]
+        - code [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e258]:
+              - generic [ref=e332]: "1"
+              - generic [ref=e263]: "2"
+              - generic [ref=e780]:
+                - generic [ref=e781] [cursor=pointer]: 
+                - generic [ref=e782]: "3"
+              - generic [ref=e783]:
+                - generic [ref=e784] [cursor=pointer]: 
+                - generic [ref=e785]: "4"
+              - generic [ref=e786]:
+                - generic [ref=e787] [cursor=pointer]: 
+                - generic [ref=e788]: "5"
+              - generic [ref=e789]:
+                - generic [ref=e790] [cursor=pointer]: 
+                - generic [ref=e791]: "6"
+              - generic [ref=e792]:
+                - generic [ref=e793] [cursor=pointer]: 
+                - generic [ref=e794]: "7"
+              - generic [ref=e796]: "8"
+              - generic [ref=e280]: "9"
+              - generic [ref=e797]:
+                - generic [ref=e798] [cursor=pointer]: 
+                - generic [ref=e799]: "10"
+              - generic [ref=e284]: "11"
+              - generic [ref=e347]: "12"
+              - generic [ref=e349]: "13"
+              - generic [ref=e800]:
+                - generic [ref=e801] [cursor=pointer]: 
+                - generic [ref=e802]: "14"
+              - generic [ref=e804]: "15"
+              - generic [ref=e356]: "16"
+              - generic [ref=e358]: "17"
+              - generic [ref=e360]: "18"
+              - generic [ref=e362]: "19"
+              - generic [ref=e364]: "20"
+              - generic [ref=e366]: "21"
+              - generic [ref=e806]: "22"
+              - generic [ref=e809]: "23"
+            - generic [ref=e307]:
+              - generic [ref=e887]: import React from 'react';
+              - generic [ref=e890]: "const MetricCard = ({ label, value, change, icon: Icon, positive }) => {"
+              - generic [ref=e892]: return (
+              - generic [ref=e894]: <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+              - generic [ref=e896]: <div className="flex items-start justify-between">
+              - generic [ref=e898]: <div>
+              - generic [ref=e900]: "<p className=\"text-gray-600 text-sm font-medium\">{label}</p>"
+              - generic [ref=e902]: "<p className=\"text-2xl font-bold text-gray-900 mt-2\">{value}</p>"
+              - generic [ref=e904]: "<p className={`text-sm mt-3 ${positive ? 'text-green-600' : 'text-red-600'}`}>"
+              - generic [ref=e906]: "{change}"
+              - generic [ref=e908]: </p>
+              - generic [ref=e910]: </div>
+              - generic [ref=e912]: "<div className={`p-3 rounded-lg ${positive ? 'bg-green-50' : 'bg-red-50'}`}>"
+              - generic [ref=e914]: "<Icon className={`w-6 h-6 ${positive ? 'text-green-600' : 'text-red-600'}`} />"
+              - generic [ref=e916]: </div>
+              - generic [ref=e918]: </div>
+              - generic [ref=e920]: </div>
+              - generic [ref=e922]: );
+              - generic [ref=e924]: "};"
+              - generic [ref=e927]: export default MetricCard;
+            - textbox "Editor content" [ref=e329]: export default MetricCard;
+  - generic [ref=e330]:
+    - alert
+    - alert

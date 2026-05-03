@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:\\\\\\\\anth\\\\\\\\uigen\\\\\\\\src\\\\\\\\components\\\\\\\\chat -type f -name \"*.tsx\" -o -name \"*.ts\")",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(npm audit *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p = require\\('./node_modules/ai/package.json'\\); console.log\\('ai version:', p.version\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/@ai-sdk/anthropic/package.json'\\); console.log\\('@ai-sdk/anthropic:', p.version\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/@ai-sdk/anthropic/package.json'\\); console.log\\(JSON.stringify\\(p.peerDependencies, null, 2\\)\\)\")",
+      "Bash(npm show *)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); try{const v=JSON.parse\\(d\\); console.log\\('latest ai-sdk/anthropic versions:', v.slice\\(-5\\).join\\(', '\\)\\)}catch\\(e\\){}\")",
+      "Bash(node -e \"const p = require\\('./node_modules/zod/package.json'\\); console.log\\('zod:', p.version\\)\")",
+      "Bash(npm pack *)",
+      "Bash(node -e \"process.stdin.resume\\(\\); let d=''; process.stdin.on\\('data',c=>d+=c\\); process.stdin.on\\('end',\\(\\)=>{try{const v=JSON.parse\\(d\\); console.log\\('last 5:', v.slice\\(-5\\).join\\(', '\\)\\)}catch\\(e\\){console.log\\(d.slice\\(-200\\)\\)}}\\)\")",
+      "Bash(node -e \"const ai = require\\('./node_modules/ai'\\); const keys = Object.keys\\(ai\\).sort\\(\\); console.log\\(keys.filter\\(k => ['streamText','appendResponseMessages','tool','Message'].some\\(n => k.includes\\(n\\)\\)\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const p = require\\('./node_modules/next/node_modules/postcss/package.json'\\); console.log\\('next bundled postcss:', p.version\\)\")",
+      "Bash(node -e \"const ai = require\\('./node_modules/ai'\\); const keys = Object.keys\\(ai\\).sort\\(\\); console.log\\(keys.join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const r = require\\('./node_modules/@ai-sdk/react'\\); console.log\\(Object.keys\\(r\\).join\\('\\\\n'\\)\\)\")",
+      "Bash(node -e \"const ai = require\\('./node_modules/ai'\\); console.log\\(typeof ai.AbstractChat\\)\")",
+      "Bash(cmd *)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(curl *)",
+      "mcp__playwright",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot"
+    ]
+  }
+}

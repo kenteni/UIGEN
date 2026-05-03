@@ -1,0 +1,216 @@
+[     695ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[     809ms] [LOG] [Fast Refresh] done in 221ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[     994ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[    1513ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="[projectId...">
+      <SegmentTrieNode>
+      <ProjectPage>
+        <MainContent user={{id:"cmopp0...", ...}} project={{id:"cmoq1m...", ...}}>
+          <FileSystemProvider initialData={{}}>
+            <ChatProvider projectId="cmoq1m5pv0..." initialMessages={[...]}>
+              <div className="h-screen w...">
+                <ResizablePanelGroup id="main-panel..." direction="horizontal" className="h-full">
+                  <forwardRef(PanelGroup) data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ...>
+                    <PanelGroup data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ...>
+                      <div data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ref={{current:null}} ...>
+                        <ResizablePanel defaultSize={35} minSize={25} maxSize={50}>
+                          <forwardRef(Panel) data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50}>
+                            <Panel data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50} ...>
+                              <div
+                                data-slot="resizable-panel"
+                                className=""
++                               id="_R_dbn5rlb_"
+-                               id="_R_1pbn5rlb_"
+                                style={{flexBasis:0,flexGrow:"35.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
+                                data-panel-group-id="main-panel-group"
+                                data-panel=""
+                                data-panel-collapsible={undefined}
++                               data-panel-id="_R_dbn5rlb_"
+-                               data-panel-id="_R_1pbn5rlb_"
+                                data-panel-size="35.0"
+                              >
+                        <ResizableHandle className="w-[1px] bg...">
+                          <PanelResizeHandle data-slot="resizable-..." className={"focus-vi..."}>
+                            <div
+                              data-slot="resizable-handle"
+                              className={"focus-visible:ring-ring relative flex items-center justify-center after:abs..."}
+                              id={undefined}
+                              onBlur={function onBlur}
+                              onFocus={function onFocus}
+                              ref={{current:null}}
+                              role="separator"
+                              style={{touchAction:"none",userSelect:"none"}}
+                              tabIndex={0}
+                              data-panel-group-direction="horizontal"
+                              data-panel-group-id="main-panel-group"
+                              data-resize-handle=""
+                              data-resize-handle-active={undefined}
+                              data-panel-resize-handle-enabled={true}
++                             data-panel-resize-handle-id="_R_lbn5rlb_"
+-                             data-panel-resize-handle-id="_R_2pbn5rlb_"
+                              data-resize-handle-state="inactive"
+                            >
+                        <ResizablePanel defaultSize={65}>
+                          <forwardRef(Panel) data-slot="resizable-..." defaultSize={65}>
+                            <Panel data-slot="resizable-..." defaultSize={65} forwardedRef={null}>
+                              <div
+                                data-slot="resizable-panel"
+                                className=""
++                               id="_R_tbn5rlb_"
+-                               id="_R_3pbn5rlb_"
+                                style={{flexBasis:0,flexGrow:"65.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
+                                data-panel-group-id="main-panel-group"
+                                data-panel=""
+                                data-panel-collapsible={undefined}
++                               data-panel-id="_R_tbn5rlb_"
+-                               data-panel-id="_R_3pbn5rlb_"
+                                data-panel-size="65.0"
+                              >
+                                ...
+                                  <div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" ...>
+                                    ...
+                                      <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                        <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                          <Primitive.button type="button" role="tab" aria-selected={true} ...>
+                                            <button
+                                              type="button"
+                                              role="tab"
+                                              aria-selected={true}
++                                             aria-controls="radix-_R_btbn5rlb_-content-preview"
+-                                             aria-controls="radix-_R_1fpbn5rlb_-content-preview"
+                                              data-state="active"
+                                              data-disabled={undefined}
+                                              disabled={false}
++                                             id="radix-_R_btbn5rlb_-trigger-preview"
+-                                             id="radix-_R_1fpbn5rlb_-trigger-preview"
+                                              data-slot="tabs-trigger"
+                                              className={"dark:data-[state=active]:text-foreground focus-visible:bord..."}
+                                              onMouseDown={function}
+                                              onKeyDown={function}
+                                              onFocus={function}
+                                              tabIndex={-1}
+                                              data-orientation="horizontal"
+                                              data-radix-collection-item=""
+                                              ref={function}
+                                            >
++                                             Preview
+                                    ...
+                                      <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                        <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                          <Primitive.button type="button" role="tab" aria-selected={false} ...>
+                                            <button
+                                              type="button"
+                                              role="tab"
+                                              aria-selected={false}
++                                             aria-controls="radix-_R_btbn5rlb_-content-code"
+-                                             aria-controls="radix-_R_1fpbn5rlb_-content-code"
+                                              data-state="inactive"
+                                              data-disabled={undefined}
+                                              disabled={false}
++                                             id="radix-_R_btbn5rlb_-trigger-code"
+-                                             id="radix-_R_1fpbn5rlb_-trigger-code"
+                                              data-slot="tabs-trigger"
+                                              className={"dark:data-[state=active]:text-foreground focus-visible:bord..."}
+                                              onMouseDown={function}
+                                              onKeyDown={function}
+                                              onFocus={function}
+                                              tabIndex={-1}
+                                              data-orientation="horizontal"
+                                              data-radix-collection-item=""
+                                              ref={function}
+                                            >
++                                             Code
+    ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[    1703ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    1818ms] [LOG] [Fast Refresh] done in 217ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[    7561ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    7588ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   13075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   13139ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   17992ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/chat:0
+[   19701ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   19764ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   44128ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   44207ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   96009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   96305ms] [LOG] [Fast Refresh] done in 401ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  109425ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  109487ms] [LOG] [Fast Refresh] done in 171ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  114347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  114395ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  115741ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  115761ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  121206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  121268ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  127688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  127946ms] [LOG] [Fast Refresh] done in 361ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  134586ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  134650ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  137964ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  138040ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  138799ms] [ERROR] Failed to load app: SyntaxError: The requested module 'lucide-react' does not provide an export named 'Github' @ about:srcdoc:144
+[  138799ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "lucide-react": "https://esm.sh/lucide-react",
+    "/App.jsx": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893",
+    "App.jsx": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893",
+    "@/App.jsx": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893",
+    "/App": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893",
+    "App": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893",
+    "@/App": "blob:http://localhost:3000/18cb9bd5-9c46-41a9-91b7-e62652615893"
+  }
+} @ about:srcdoc:145
+[  159191ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  159271ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  183245ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  183272ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  183409ms] [ERROR] ReferenceError: Github is not defined
+    at App (blob:http://localhost:3000/4c463dbe-00b1-405a-aa37-eb7ce91e44f9:85:43)
+    at ze (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:47846)
+    at _c (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:70466)
+    at av (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:80779)
+    at qv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:116269)
+    at $h (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:115351)
+    at Jf (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:115189)
+    at Dv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:112026)
+    at Rv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:123678)
+    at I (https://esm.sh/scheduler@0.27.0/es2022/scheduler.mjs:3:2059) @ https://esm.sh/react-dom@19.2.5/es2022/client.mjs:9
+[  183409ms] [ERROR] Error caught by boundary: ReferenceError: Github is not defined
+    at App (blob:http://localhost:3000/4c463dbe-00b1-405a-aa37-eb7ce91e44f9:85:43)
+    at ze (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:47846)
+    at _c (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:70466)
+    at av (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:80779)
+    at qv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:116269)
+    at $h (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:115351)
+    at Jf (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:115189)
+    at Dv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:112026)
+    at Rv (https://esm.sh/react-dom@19.2.5/es2022/client.mjs:10:123678)
+    at I (https://esm.sh/scheduler@0.27.0/es2022/scheduler.mjs:3:2059) {componentStack: 
+    at App (blob:http://localhost:3000/4c463dbe-0…:85:43)
+    at ErrorBoundary (about:srcdoc:105:9)} @ about:srcdoc:113
+[  188221ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  188293ms] [LOG] [Fast Refresh] done in 172ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  194576ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  194591ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  210608ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  210920ms] [LOG] [Fast Refresh] done in 415ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  231878ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  231955ms] [LOG] [Fast Refresh] done in 184ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

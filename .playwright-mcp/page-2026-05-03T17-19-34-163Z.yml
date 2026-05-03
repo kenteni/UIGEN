@@ -1,0 +1,142 @@
+- generic [ref=e1]:
+  - generic [ref=e77] [cursor=pointer]:
+    - button "Open issues overlay" [ref=e78]:
+      - img [ref=e80]
+      - generic [ref=e82]:
+        - generic [ref=e83]: "0"
+        - generic [ref=e84]: "1"
+      - generic [ref=e85]: Issue
+    - button "Collapse issues badge" [ref=e86]:
+      - img [ref=e87]
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e143]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e146]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e156]:
+              - paragraph [ref=e158]: I'll create a dashboard widget with monthly revenue stats, a chart, and key metrics.
+              - separator [ref=e159]
+              - paragraph [ref=e161]: "Now I'll create the RevenueDashboard component with chart and metrics:"
+              - separator [ref=e168]
+              - separator [ref=e169]
+              - separator [ref=e170]
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - strong [ref=e175]: 4 Key Metrics Cards
+                    - text: displaying current month revenue, YTD total, monthly average, and target rate
+                  - listitem [ref=e176]:
+                    - strong [ref=e177]: Interactive Bar Chart
+                    - text: showing 12 months of revenue data with hover tooltips
+                  - listitem [ref=e178]:
+                    - strong [ref=e179]: Quick Stats Section
+                    - text: highlighting highest month, growth rate, and consistency
+                  - listitem [ref=e180]:
+                    - strong [ref=e181]: Dark theme
+                    - text: with gradient accents and smooth transitions
+                  - listitem [ref=e182]:
+                    - strong [ref=e183]: Responsive design
+                    - text: that works on mobile, tablet, and desktop
+                - paragraph [ref=e184]: The chart is fully interactive with hover effects, and all components use Tailwind CSS for styling.
+          - generic [ref=e185]:
+            - generic [ref=e187]: Make the chart trend upward from left to right
+            - img [ref=e190]
+          - generic [ref=e193]:
+            - img [ref=e196]
+            - generic [ref=e200]:
+              - separator [ref=e201]
+              - separator [ref=e210]
+              - separator [ref=e211]
+              - paragraph [ref=e213]: Done! The chart now trends steadily upward from left to right with consistent growth throughout the year.
+        - generic [ref=e107]:
+          - textbox "Describe the React component you want to create..." [ref=e108]
+          - button [disabled] [ref=e109]:
+            - img [ref=e110]
+    - separator [ref=e113]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - tablist [ref=e118]:
+          - tab "Preview" [ref=e119]
+          - tab "Code" [active] [selected] [ref=e120]
+        - generic [ref=e121]:
+          - combobox [ref=e122]:
+            - img
+            - text: "Design #63458"
+            - img
+          - button "New Design" [ref=e123]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e124]:
+            - img
+      - generic [ref=e214]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222] [cursor=pointer]:
+              - img [ref=e223]
+              - img [ref=e225]
+              - generic [ref=e227]: components
+            - generic [ref=e228]:
+              - generic [ref=e230] [cursor=pointer]:
+                - img [ref=e231]
+                - generic [ref=e236]: MetricsCard.jsx
+              - generic [ref=e238] [cursor=pointer]:
+                - img [ref=e239]
+                - generic [ref=e244]: RevenueChart.jsx
+              - generic [ref=e246] [cursor=pointer]:
+                - img [ref=e247]
+                - generic [ref=e252]: RevenueDashboard.jsx
+          - generic [ref=e254] [cursor=pointer]:
+            - img [ref=e255]
+            - generic [ref=e260]: App.jsx
+        - separator [ref=e261]
+        - code [ref=e266]:
+          - generic [ref=e267]:
+            - generic [ref=e269]:
+              - generic [ref=e272]: "1"
+              - generic [ref=e274]: "2"
+              - generic [ref=e276]: "3"
+              - generic [ref=e277]:
+                - generic [ref=e278] [cursor=pointer]: 
+                - generic [ref=e279]: "4"
+              - generic [ref=e280]:
+                - generic [ref=e281] [cursor=pointer]: 
+                - generic [ref=e282]: "5"
+              - generic [ref=e283]:
+                - generic [ref=e284] [cursor=pointer]: 
+                - generic [ref=e285]: "6"
+              - generic [ref=e286]:
+                - generic [ref=e287] [cursor=pointer]: 
+                - generic [ref=e288]: "7"
+              - generic [ref=e290]: "8"
+              - generic [ref=e292]: "9"
+              - generic [ref=e294]: "10"
+              - generic [ref=e296]: "11"
+              - generic [ref=e298]: "12"
+              - generic [ref=e300]: "13"
+              - generic [ref=e302]: "14"
+              - generic [ref=e304]: "15"
+            - generic [ref=e346]:
+              - generic [ref=e348]: import React from 'react';
+              - generic [ref=e350]: import RevenueDashboard from '@/components/RevenueDashboard';
+              - generic [ref=e353]: "export default function App() {"
+              - generic [ref=e355]: return (
+              - generic [ref=e357]: <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-8">
+              - generic [ref=e359]: <div className="max-w-6xl mx-auto">
+              - generic [ref=e361]: <h1 className="text-4xl font-bold text-white mb-2">Revenue Analytics</h1>
+              - generic [ref=e363]: <p className="text-slate-400 mb-8">Track your monthly revenue performance</p>
+              - generic [ref=e365]: <RevenueDashboard />
+              - generic [ref=e367]: </div>
+              - generic [ref=e369]: </div>
+              - generic [ref=e371]: );
+              - generic [ref=e373]: "}"
+            - textbox "Editor content" [ref=e376]
+  - generic [ref=e209]:
+    - alert
+    - alert

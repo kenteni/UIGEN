@@ -1,0 +1,80 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - heading "React Component Generator" [level=1] [ref=e7]
+    - generic [ref=e9]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e18]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - img [ref=e27]
+          - generic [ref=e31]:
+            - paragraph [ref=e33]: I'll create a dashboard widget with monthly revenue stats, a chart, and key metrics.
+            - separator [ref=e34]
+            - paragraph [ref=e36]: "Now I'll create the RevenueDashboard component with chart and metrics:"
+            - separator [ref=e37]
+            - separator [ref=e38]
+            - separator [ref=e39]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: "Done! I've created a revenue dashboard with:"
+              - list [ref=e42]:
+                - listitem [ref=e43]:
+                  - strong [ref=e44]: 4 Key Metrics Cards
+                  - text: displaying current month revenue, YTD total, monthly average, and target rate
+                - listitem [ref=e45]:
+                  - strong [ref=e46]: Interactive Bar Chart
+                  - text: showing 12 months of revenue data with hover tooltips
+                - listitem [ref=e47]:
+                  - strong [ref=e48]: Quick Stats Section
+                  - text: highlighting highest month, growth rate, and consistency
+                - listitem [ref=e49]:
+                  - strong [ref=e50]: Dark theme
+                  - text: with gradient accents and smooth transitions
+                - listitem [ref=e51]:
+                  - strong [ref=e52]: Responsive design
+                  - text: that works on mobile, tablet, and desktop
+              - paragraph [ref=e53]: The chart is fully interactive with hover effects, and all components use Tailwind CSS for styling.
+        - generic [ref=e54]:
+          - generic [ref=e56]: Make the chart trend upward from left to right
+          - img [ref=e59]
+        - generic [ref=e62]:
+          - img [ref=e65]
+          - generic [ref=e69]:
+            - separator [ref=e70]
+            - separator [ref=e71]
+            - separator [ref=e72]
+            - paragraph [ref=e74]: Done! The chart now trends steadily upward from left to right with consistent growth throughout the year.
+        - generic [ref=e75]:
+          - generic [ref=e77]: "Fix the bar chart in RevenueChart.jsx — the bars are hanging downward from the top. The chart container needs `items-end` so bars grow upward from the baseline. Add `items-end` to the outer flex container and `justify-end` to each bar column so the bars sit at the bottom."
+          - img [ref=e80]
+        - generic [ref=e83]:
+          - img [ref=e86]
+          - generic [ref=e90]:
+            - separator [ref=e91]
+            - paragraph [ref=e93]: Done! The bars now grow upward from the baseline instead of hanging down.
+        - generic [ref=e94]:
+          - generic [ref=e96]: "The chart bars are gone now. Rewrite RevenueChart.jsx using this correct pattern for a bottom-anchored bar chart: the outer container should be `flex items-end gap-1 h-48` (row flex, items aligned to bottom). Each bar column is a plain `div` with a percentage height via inline style. Remove any nested flex-col wrapper around individual bars."
+          - img [ref=e99]
+        - generic [ref=e102]:
+          - img [ref=e105]
+          - generic [ref=e109]:
+            - separator [ref=e110]
+            - paragraph [ref=e112]: Done! The chart now uses the correct pattern with bars anchored at the bottom and growing upward.
+      - generic [ref=e115]:
+        - textbox "Describe the React component you want to create..." [ref=e116]
+        - button [disabled] [ref=e117]:
+          - img [ref=e118]
+  - separator [ref=e121]
+  - generic [ref=e123]:
+    - generic [ref=e124]:
+      - tablist [ref=e126]:
+        - tab "Preview" [selected] [ref=e127]
+        - tab "Code" [ref=e128]
+      - generic [ref=e129]:
+        - button "New Design" [ref=e130]:
+          - img
+          - text: New Design
+        - button "Sign out" [ref=e131]:
+          - img
+    - iframe [ref=e134]:
+      

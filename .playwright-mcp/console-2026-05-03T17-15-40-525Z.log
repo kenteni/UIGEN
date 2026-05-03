@@ -1,0 +1,199 @@
+[     704ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[     736ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[     842ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[     992ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[    1544ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <SegmentViewNode type="page" pagePath="[projectId...">
+      <SegmentTrieNode>
+      <ProjectPage>
+        <MainContent user={{id:"cmopp0...", ...}} project={{id:"cmoq14...", ...}}>
+          <FileSystemProvider initialData={{...}}>
+            <ChatProvider projectId="cmoq14ohs0..." initialMessages={[...]}>
+              <div className="h-screen w...">
+                <ResizablePanelGroup id="main-panel..." direction="horizontal" className="h-full">
+                  <forwardRef(PanelGroup) data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ...>
+                    <PanelGroup data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ...>
+                      <div data-slot="resizable-..." className="flex w-ful..." id="main-panel..." ref={{current:null}} ...>
+                        <ResizablePanel defaultSize={35} minSize={25} maxSize={50}>
+                          <forwardRef(Panel) data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50}>
+                            <Panel data-slot="resizable-..." defaultSize={35} minSize={25} maxSize={50} ...>
+                              <div
+                                data-slot="resizable-panel"
+                                className=""
++                               id="_R_dbn5rlb_"
+-                               id="_R_1pbn5rlb_"
+                                style={{flexBasis:0,flexGrow:"35.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
+                                data-panel-group-id="main-panel-group"
+                                data-panel=""
+                                data-panel-collapsible={undefined}
++                               data-panel-id="_R_dbn5rlb_"
+-                               data-panel-id="_R_1pbn5rlb_"
+                                data-panel-size="35.0"
+                              >
+                        <ResizableHandle className="w-[1px] bg...">
+                          <PanelResizeHandle data-slot="resizable-..." className={"focus-vi..."}>
+                            <div
+                              data-slot="resizable-handle"
+                              className={"focus-visible:ring-ring relative flex items-center justify-center after:abs..."}
+                              id={undefined}
+                              onBlur={function onBlur}
+                              onFocus={function onFocus}
+                              ref={{current:null}}
+                              role="separator"
+                              style={{touchAction:"none",userSelect:"none"}}
+                              tabIndex={0}
+                              data-panel-group-direction="horizontal"
+                              data-panel-group-id="main-panel-group"
+                              data-resize-handle=""
+                              data-resize-handle-active={undefined}
+                              data-panel-resize-handle-enabled={true}
++                             data-panel-resize-handle-id="_R_lbn5rlb_"
+-                             data-panel-resize-handle-id="_R_2pbn5rlb_"
+                              data-resize-handle-state="inactive"
+                            >
+                        <ResizablePanel defaultSize={65}>
+                          <forwardRef(Panel) data-slot="resizable-..." defaultSize={65}>
+                            <Panel data-slot="resizable-..." defaultSize={65} forwardedRef={null}>
+                              <div
+                                data-slot="resizable-panel"
+                                className=""
++                               id="_R_tbn5rlb_"
+-                               id="_R_3pbn5rlb_"
+                                style={{flexBasis:0,flexGrow:"65.0",flexShrink:1,overflow:"hidden",pointerEvents:undefined}}
+                                data-panel-group-id="main-panel-group"
+                                data-panel=""
+                                data-panel-collapsible={undefined}
++                               data-panel-id="_R_tbn5rlb_"
+-                               data-panel-id="_R_3pbn5rlb_"
+                                data-panel-size="65.0"
+                              >
+                                ...
+                                  <div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" ...>
+                                    ...
+                                      <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                        <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                          <Primitive.button type="button" role="tab" aria-selected={true} ...>
+                                            <button
+                                              type="button"
+                                              role="tab"
+                                              aria-selected={true}
++                                             aria-controls="radix-_R_btbn5rlb_-content-preview"
+-                                             aria-controls="radix-_R_1fpbn5rlb_-content-preview"
+                                              data-state="active"
+                                              data-disabled={undefined}
+                                              disabled={false}
++                                             id="radix-_R_btbn5rlb_-trigger-preview"
+-                                             id="radix-_R_1fpbn5rlb_-trigger-preview"
+                                              data-slot="tabs-trigger"
+                                              className={"dark:data-[state=active]:text-foreground focus-visible:bord..."}
+                                              onMouseDown={function}
+                                              onKeyDown={function}
+                                              onFocus={function}
+                                              tabIndex={-1}
+                                              data-orientation="horizontal"
+                                              data-radix-collection-item=""
+                                              ref={function}
+                                            >
++                                             Preview
+                                    ...
+                                      <Primitive.span.Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                        <Primitive.span.SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                          <Primitive.button type="button" role="tab" aria-selected={false} ...>
+                                            <button
+                                              type="button"
+                                              role="tab"
+                                              aria-selected={false}
++                                             aria-controls="radix-_R_btbn5rlb_-content-code"
+-                                             aria-controls="radix-_R_1fpbn5rlb_-content-code"
+                                              data-state="inactive"
+                                              data-disabled={undefined}
+                                              disabled={false}
++                                             id="radix-_R_btbn5rlb_-trigger-code"
+-                                             id="radix-_R_1fpbn5rlb_-trigger-code"
+                                              data-slot="tabs-trigger"
+                                              className={"dark:data-[state=active]:text-foreground focus-visible:bord..."}
+                                              onMouseDown={function}
+                                              onKeyDown={function}
+                                              onFocus={function}
+                                              tabIndex={-1}
+                                              data-orientation="horizontal"
+                                              data-radix-collection-item=""
+                                              ref={function}
+                                            >
++                                             Code
+    ...
+ @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[    1697ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[    1832ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[    2093ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    2145ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[    2870ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    2933ms] [LOG] [Fast Refresh] done in 171ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[    5793ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    5793ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[    7304ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[    7323ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   12783ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   12874ms] [LOG] [Fast Refresh] done in 203ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   16676ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   16810ms] [LOG] [Fast Refresh] done in 244ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   19169ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   19178ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   23589ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   23651ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   29435ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   29445ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   34435ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   34444ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   37256ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   37264ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   43715ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   43779ms] [LOG] [Fast Refresh] done in 174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   47328ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   47344ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  139313ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  139361ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  143936ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  143944ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  147022ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  147030ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  147245ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  147324ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  149124ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  149131ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  165079ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  165158ms] [LOG] [Fast Refresh] done in 185ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  233755ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  233897ms] [LOG] [Fast Refresh] done in 208ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  244853ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  245026ms] [LOG] [Fast Refresh] done in 233ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  273431ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  273510ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  275635ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  275698ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  283249ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  283260ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  285190ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  285331ms] [LOG] [Fast Refresh] done in 211ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  300089ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  300152ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  320243ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[  320284ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[  321415ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  321477ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  339648ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  339711ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  382363ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  382662ms] [LOG] [Fast Refresh] done in 381ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

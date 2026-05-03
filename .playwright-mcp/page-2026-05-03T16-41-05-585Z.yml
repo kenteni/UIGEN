@@ -1,0 +1,43 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img [ref=e12]
+          - paragraph [ref=e15]: Start a conversation to generate React components
+          - paragraph [ref=e16]: I can help you create buttons, forms, cards, and more
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [active] [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - combobox [ref=e39]:
+            - img
+            - text: "New Design #7407"
+            - img
+          - button "New Design" [ref=e34]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e35]:
+            - img
+      - iframe [ref=e38]:
+        - generic [ref=f1e4]:
+          - heading "New Card Title" [level=2] [ref=f1e5]
+          - paragraph [ref=f1e6]: This is a description of the card. It provides additional context and information about the card's content.
+  - generic [ref=e45] [cursor=pointer]:
+    - button "Open issues overlay" [ref=e46]:
+      - img [ref=e48]
+      - generic [ref=e50]:
+        - generic [ref=e51]: "0"
+        - generic [ref=e52]: "1"
+      - generic [ref=e53]: Issue
+    - button "Collapse issues badge" [ref=e54]:
+      - img [ref=e55]
+  - alert [ref=e57]

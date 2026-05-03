@@ -1,0 +1,70 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e135]
+  - generic [ref=e137]:
+    - generic [ref=e139]:
+      - heading "React Component Generator" [level=1] [ref=e141]
+      - generic [ref=e143]:
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e189]: Create a user profile card with avatar, name, bio, and social stats
+            - img [ref=e192]
+          - generic [ref=e195]:
+            - img [ref=e198]
+            - generic [ref=e202]:
+              - separator [ref=e208]
+              - generic [ref=e209]:
+                - paragraph [ref=e210]: "Done! Created a user profile card with:"
+                - list [ref=e211]:
+                  - listitem [ref=e212]: Avatar with gradient border and online status indicator
+                  - listitem [ref=e213]: Name and bio section
+                  - listitem [ref=e214]: Social stats (Followers, Following, Posts)
+                  - listitem [ref=e215]: Interactive social media icon buttons
+                  - listitem [ref=e216]: Follow/Message action buttons
+                  - listitem [ref=e217]: Dark themed design with emerald and blue accents
+        - generic [ref=e153]:
+          - textbox "Describe the React component you want to create..." [ref=e154]
+          - button [disabled] [ref=e155]:
+            - img [ref=e156]
+    - separator [ref=e159]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - tablist [ref=e164]:
+          - tab "Preview" [selected] [ref=e165]
+          - tab "Code" [ref=e166]
+        - generic [ref=e167]:
+          - combobox [ref=e168]:
+            - img
+            - text: "Design #91644"
+            - img
+          - button "New Design" [ref=e169]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e170]:
+            - img
+      - iframe [ref=e218]:
+        - generic [ref=f11e6]:
+          - img "Avatar" [ref=f11e10]
+          - generic [ref=f11e12]:
+            - heading "Alex Morgan" [level=2] [ref=f11e13]
+            - paragraph [ref=f11e14]: Product Designer • Creative Thinker
+            - paragraph [ref=f11e15]: Crafting beautiful digital experiences. Coffee enthusiast & design lover.
+          - generic [ref=f11e16]:
+            - generic [ref=f11e17]:
+              - generic [ref=f11e18]: 2.4K
+              - generic [ref=f11e19]: Followers
+            - generic [ref=f11e20]:
+              - generic [ref=f11e21]: "482"
+              - generic [ref=f11e22]: Following
+            - generic [ref=f11e23]:
+              - generic [ref=f11e24]: "156"
+              - generic [ref=f11e25]: Posts
+          - generic [ref=f11e26]:
+            - button [ref=f11e27] [cursor=pointer]:
+              - img [ref=f11e28]
+            - button [ref=f11e30] [cursor=pointer]:
+              - img [ref=f11e31]
+            - button [ref=f11e33] [cursor=pointer]:
+              - img [ref=f11e34]
+          - generic [ref=f11e36]:
+            - button "Follow" [ref=f11e37] [cursor=pointer]
+            - button "Message" [ref=f11e38] [cursor=pointer]

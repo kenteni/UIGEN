@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e111]
+  - generic [ref=e113]:
+    - generic [ref=e115]:
+      - heading "React Component Generator" [level=1] [ref=e117]
+      - generic [ref=e119]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e168]
+          - generic [ref=e171]:
+            - img [ref=e174]
+            - generic [ref=e178]:
+              - paragraph [ref=e180]: I'll create a dashboard widget with monthly revenue stats, including a chart and key metrics.
+              - separator [ref=e181]
+        - generic [ref=e129]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e130]
+          - button [disabled] [ref=e131]:
+            - img [ref=e132]
+    - separator [ref=e135]
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - tablist [ref=e140]:
+          - tab "Preview" [selected] [ref=e141]
+          - tab "Code" [ref=e142]
+        - generic [ref=e143]:
+          - combobox [ref=e144]:
+            - img
+            - text: "Design #85266"
+            - img
+          - button "New Design" [ref=e145]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e146]:
+            - img
+      - iframe [ref=e187]:
+        

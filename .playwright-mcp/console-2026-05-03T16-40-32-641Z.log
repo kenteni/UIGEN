@@ -1,0 +1,10 @@
+[   22115ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   22517ms] [ERROR] You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`. @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   22613ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   22889ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   23409ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   23437ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   23779ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   24037ms] [LOG] [Fast Refresh] done in 365ms @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[   33071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[   33181ms] [LOG] [Fast Refresh] done in 211ms @ http://localhost:3003/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809

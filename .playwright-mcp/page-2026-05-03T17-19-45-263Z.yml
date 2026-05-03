@@ -1,0 +1,202 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e143]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e146]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e156]:
+              - paragraph [ref=e158]: I'll create a dashboard widget with monthly revenue stats, a chart, and key metrics.
+              - separator [ref=e159]
+              - paragraph [ref=e161]: "Now I'll create the RevenueDashboard component with chart and metrics:"
+              - separator [ref=e168]
+              - separator [ref=e169]
+              - separator [ref=e170]
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - strong [ref=e175]: 4 Key Metrics Cards
+                    - text: displaying current month revenue, YTD total, monthly average, and target rate
+                  - listitem [ref=e176]:
+                    - strong [ref=e177]: Interactive Bar Chart
+                    - text: showing 12 months of revenue data with hover tooltips
+                  - listitem [ref=e178]:
+                    - strong [ref=e179]: Quick Stats Section
+                    - text: highlighting highest month, growth rate, and consistency
+                  - listitem [ref=e180]:
+                    - strong [ref=e181]: Dark theme
+                    - text: with gradient accents and smooth transitions
+                  - listitem [ref=e182]:
+                    - strong [ref=e183]: Responsive design
+                    - text: that works on mobile, tablet, and desktop
+                - paragraph [ref=e184]: The chart is fully interactive with hover effects, and all components use Tailwind CSS for styling.
+          - generic [ref=e185]:
+            - generic [ref=e187]: Make the chart trend upward from left to right
+            - img [ref=e190]
+          - generic [ref=e193]:
+            - img [ref=e196]
+            - generic [ref=e200]:
+              - separator [ref=e201]
+              - separator [ref=e210]
+              - separator [ref=e211]
+              - paragraph [ref=e213]: Done! The chart now trends steadily upward from left to right with consistent growth throughout the year.
+        - generic [ref=e107]:
+          - textbox "Describe the React component you want to create..." [ref=e108]
+          - button [disabled] [ref=e109]:
+            - img [ref=e110]
+    - separator [ref=e113]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - tablist [ref=e118]:
+          - tab "Preview" [ref=e119]
+          - tab "Code" [selected] [ref=e120]
+        - generic [ref=e121]:
+          - combobox [ref=e122]:
+            - img
+            - text: "Design #63458"
+            - img
+          - button "New Design" [ref=e123]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e124]:
+            - img
+      - generic [ref=e214]:
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222] [cursor=pointer]:
+              - img [ref=e223]
+              - img [ref=e225]
+              - generic [ref=e227]: components
+            - generic [ref=e228]:
+              - generic [ref=e230] [cursor=pointer]:
+                - img [ref=e231]
+                - generic [ref=e236]: MetricsCard.jsx
+              - generic [ref=e238] [cursor=pointer]:
+                - img [ref=e239]
+                - generic [ref=e244]: RevenueChart.jsx
+              - generic [ref=e246] [cursor=pointer]:
+                - img [ref=e247]
+                - generic [ref=e252]: RevenueDashboard.jsx
+          - generic [ref=e254] [cursor=pointer]:
+            - img [ref=e255]
+            - generic [ref=e260]: App.jsx
+        - separator [ref=e261]
+        - code [ref=e266]:
+          - generic [ref=e267]:
+            - generic [ref=e269]:
+              - generic [ref=e378]: "1"
+              - generic [ref=e274]: "2"
+              - generic [ref=e379]:
+                - generic [ref=e380] [cursor=pointer]: 
+                - generic [ref=e381]: "3"
+              - generic [ref=e383]: "4"
+              - generic [ref=e385]: "5"
+              - generic [ref=e387]: "6"
+              - generic [ref=e389]: "7"
+              - generic [ref=e390]:
+                - generic [ref=e391] [cursor=pointer]: 
+                - generic [ref=e392]: "8"
+              - generic [ref=e292]: "9"
+              - generic [ref=e294]: "10"
+              - generic [ref=e296]: "11"
+              - generic [ref=e393]:
+                - generic [ref=e394] [cursor=pointer]: 
+                - generic [ref=e395]: "12"
+              - generic [ref=e396]:
+                - generic [ref=e397] [cursor=pointer]: 
+                - generic [ref=e398]: "13"
+              - generic [ref=e399]:
+                - generic [ref=e400] [cursor=pointer]: 
+                - generic [ref=e401]: "14"
+              - generic [ref=e304]: "15"
+              - generic [ref=e403]: "16"
+              - generic [ref=e405]: "17"
+              - generic [ref=e406]:
+                - generic [ref=e407] [cursor=pointer]: 
+                - generic [ref=e408]: "18"
+              - generic [ref=e409]:
+                - generic [ref=e410] [cursor=pointer]: 
+                - generic [ref=e411]: "19"
+              - generic [ref=e413]: "20"
+              - generic [ref=e415]: "21"
+              - generic [ref=e416]:
+                - generic [ref=e417] [cursor=pointer]: 
+                - generic [ref=e418]: "22"
+              - generic [ref=e420]: "23"
+              - generic [ref=e421]:
+                - generic [ref=e422] [cursor=pointer]: 
+                - generic [ref=e423]: "24"
+              - generic [ref=e424]:
+                - generic [ref=e425] [cursor=pointer]: 
+                - generic [ref=e426]: "25"
+              - generic [ref=e429]: "26"
+              - generic [ref=e431]: "27"
+              - generic [ref=e432]:
+                - generic [ref=e433] [cursor=pointer]: 
+                - generic [ref=e434]: "28"
+              - generic [ref=e437]: "29"
+              - generic [ref=e439]: "30"
+              - generic [ref=e441]: "31"
+              - generic [ref=e443]: "32"
+              - generic [ref=e445]: "33"
+              - generic [ref=e447]: "34"
+              - generic [ref=e449]: "35"
+              - generic [ref=e451]: "36"
+              - generic [ref=e453]: "37"
+              - generic [ref=e455]: "38"
+              - generic [ref=e457]: "39"
+              - generic [ref=e459]: "40"
+              - generic [ref=e461]: "41"
+              - generic [ref=e463]: "42"
+              - generic [ref=e465]: "43"
+              - generic [ref=e468]: "44"
+            - generic [ref=e346]:
+              - generic [ref=e690]: import React from 'react';
+              - generic [ref=e693]: "const RevenueChart = ({ data }) => {"
+              - generic [ref=e695]: const maxValue = Math.max(...data.map(d => d.revenue));
+              - generic [ref=e697]: const minValue = Math.min(...data.map(d => d.revenue));
+              - generic [ref=e699]: const range = maxValue - minValue;
+              - generic [ref=e702]: "const getBarHeight = (value) => {"
+              - generic [ref=e704]: return ((value - minValue) / range) * 100;
+              - generic [ref=e706]: "};"
+              - generic [ref=e709]: return (
+              - generic [ref=e711]: <div className="flex items-flex-end gap-3 h-80 px-4">
+              - generic [ref=e713]: "{data.map((item, index) => {"
+              - generic [ref=e715]: const height = getBarHeight(item.revenue);
+              - generic [ref=e717]: const isTarget = item.revenue >= item.target;
+              - generic [ref=e720]: return (
+              - generic [ref=e722]: <div
+              - generic [ref=e724]: "key={index}"
+              - generic [ref=e726]: className="flex-1 flex flex-col items-center gap-2 group"
+              - generic [ref=e728]: ">"
+              - generic [ref=e730]: "{/* Bar */}"
+              - generic [ref=e732]: <div className="w-full h-full flex items-flex-end justify-center">
+              - generic [ref=e734]: <div className="w-3/4 bg-gradient-to-t from-indigo-500 via-indigo-400 to-indigo-300 rounded-t-lg transition-all duration-300 hover:from-indigo-400 hover:via-indigo-300
+              - generic [ref=e736]: hover:to-indigo-200 hover:shadow-lg hover:shadow-indigo-500/50 relative group/bar"
+              - generic [ref=e738]: "style={{ height: `${height}%` }}>"
+              - generic [ref=e740]: "{/* Tooltip */}"
+              - generic [ref=e742]: <div className="absolute -top-16 left-1/2 -translate-x-1/2 bg-slate-900 text-white px-3 py-2 rounded-lg text-xs whitespace-nowrap opacity-0 group-hover/bar:opacity-100
+              - generic [ref=e744]: transition-opacity border border-slate-700 shadow-lg pointer-events-none z-10">
+              - generic [ref=e746]: "${(item.revenue / 1000).toFixed(0)}k"
+              - generic [ref=e748]: </div>
+              - generic [ref=e750]: </div>
+              - generic [ref=e752]: </div>
+              - generic [ref=e755]: "{/* Month Label */}"
+              - generic [ref=e757]: "<p className=\"text-slate-400 text-xs font-medium\">{item.month}</p>"
+              - generic [ref=e759]: </div>
+              - generic [ref=e761]: );
+              - generic [ref=e763]: "})}"
+              - generic [ref=e765]: </div>
+              - generic [ref=e767]: );
+              - generic [ref=e769]: "};"
+              - generic [ref=e772]: export default RevenueChart;
+            - textbox "Editor content" [ref=e376]: "</div> ); }; export default RevenueChart;"
+  - generic [ref=e209]:
+    - alert
+    - alert

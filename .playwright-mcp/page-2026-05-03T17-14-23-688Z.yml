@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e111]
+  - generic [ref=e113]:
+    - generic [ref=e115]:
+      - heading "React Component Generator" [level=1] [ref=e117]
+      - generic [ref=e119]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e168]
+          - generic [ref=e171]:
+            - img [ref=e174]
+            - generic [ref=e178]:
+              - paragraph [ref=e180]: I'll create a dashboard widget with monthly revenue stats, including a chart and key metrics.
+              - separator [ref=e181]
+              - separator [ref=e188]
+              - separator [ref=e189]
+              - separator [ref=e190]
+              - generic [ref=e191]:
+                - paragraph [ref=e192]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e193]:
+                  - listitem [ref=e194]:
+                    - strong [ref=e195]: 4 Metric Cards
+                    - text: ": Displaying total revenue, average order value, monthly target progress, and growth rate with icons and trend indicators"
+                  - listitem [ref=e196]:
+                    - strong [ref=e197]: Bar Chart
+                    - text: ": Showing monthly revenue trends for all 12 months with hover tooltips"
+                  - listitem [ref=e198]:
+                    - strong [ref=e199]: Responsive Layout
+                    - text: ": Grid adapts from 1 column on mobile to 4 columns on desktop"
+                  - listitem [ref=e200]:
+                    - strong [ref=e201]: Clean Design
+                    - text: ": Uses Tailwind CSS with a professional color scheme and smooth interactions"
+                - paragraph [ref=e202]: The dashboard includes sample data for the full year and uses lucide-react icons for visual appeal.
+        - generic [ref=e129]:
+          - textbox "Describe the React component you want to create..." [ref=e130]
+          - button [disabled] [ref=e131]:
+            - img [ref=e132]
+    - separator [ref=e135]
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - tablist [ref=e140]:
+          - tab "Preview" [ref=e141]
+          - tab "Code" [selected] [ref=e142]
+        - generic [ref=e143]:
+          - combobox [ref=e144]:
+            - img
+            - text: "Design #85266"
+            - img
+          - button "New Design" [ref=e145]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e146]:
+            - img
+      - generic [ref=e203]:
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211] [cursor=pointer]:
+              - img [ref=e212]
+              - img [ref=e214]
+              - generic [ref=e216]: components
+            - generic [ref=e217]:
+              - generic [ref=e219] [cursor=pointer]:
+                - img [ref=e220]
+                - generic [ref=e225]: MetricCard.jsx
+              - generic [ref=e227] [cursor=pointer]:
+                - img [ref=e228]
+                - generic [ref=e233]: RevenueChart.jsx
+              - generic [ref=e235] [cursor=pointer]:
+                - img [ref=e236]
+                - generic [ref=e241]: RevenueDashboard.jsx
+          - generic [ref=e243] [cursor=pointer]:
+            - img [ref=e244]
+            - generic [ref=e249]: App.jsx
+        - separator [ref=e250]
+        - code [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e258]:
+              - generic [ref=e332]: "1"
+              - generic [ref=e263]: "2"
+              - generic [ref=e265]: "3"
+              - generic [ref=e334]: "4"
+              - generic [ref=e336]: "5"
+              - generic [ref=e337]:
+                - generic [ref=e338] [cursor=pointer]: 
+                - generic [ref=e339]: "6"
+              - generic [ref=e340]:
+                - generic [ref=e341] [cursor=pointer]: 
+                - generic [ref=e342]: "7"
+              - generic [ref=e343]:
+                - generic [ref=e344] [cursor=pointer]: 
+                - generic [ref=e345]: "8"
+              - generic [ref=e280]: "9"
+              - generic [ref=e282]: "10"
+              - generic [ref=e284]: "11"
+              - generic [ref=e347]: "12"
+              - generic [ref=e349]: "13"
+              - generic [ref=e351]: "14"
+              - generic [ref=e352]:
+                - generic [ref=e353] [cursor=pointer]: 
+                - generic [ref=e354]: "15"
+              - generic [ref=e356]: "16"
+              - generic [ref=e358]: "17"
+              - generic [ref=e360]: "18"
+              - generic [ref=e362]: "19"
+              - generic [ref=e364]: "20"
+              - generic [ref=e366]: "21"
+              - generic [ref=e367]:
+                - generic [ref=e368] [cursor=pointer]: 
+                - generic [ref=e369]: "22"
+              - generic [ref=e371]: "23"
+              - generic [ref=e373]: "24"
+              - generic [ref=e375]: "25"
+              - generic [ref=e377]: "26"
+              - generic [ref=e379]: "27"
+              - generic [ref=e381]: "28"
+              - generic [ref=e382]:
+                - generic [ref=e383] [cursor=pointer]: 
+                - generic [ref=e384]: "29"
+              - generic [ref=e386]: "30"
+              - generic [ref=e388]: "31"
+              - generic [ref=e390]: "32"
+              - generic [ref=e392]: "33"
+              - generic [ref=e394]: "34"
+              - generic [ref=e396]: "35"
+              - generic [ref=e398]: "36"
+              - generic [ref=e400]: "37"
+              - generic [ref=e401]:
+                - generic [ref=e402] [cursor=pointer]: 
+                - generic [ref=e403]: "38"
+              - generic [ref=e405]: "39"
+              - generic [ref=e407]: "40"
+              - generic [ref=e409]: "41"
+              - generic [ref=e411]: "42"
+              - generic [ref=e413]: "43"
+              - generic [ref=e415]: "44"
+              - generic [ref=e417]: "45"
+              - generic [ref=e419]: "46"
+              - generic [ref=e421]: "47"
+              - generic [ref=e423]: "48"
+              - generic [ref=e425]: "49"
+              - generic [ref=e427]: "50"
+              - generic [ref=e429]: "51"
+              - generic [ref=e431]: "52"
+              - generic [ref=e432]:
+                - generic [ref=e433] [cursor=pointer]: 
+                - generic [ref=e434]: "53"
+              - generic [ref=e435]:
+                - generic [ref=e436] [cursor=pointer]: 
+                - generic [ref=e437]: "54"
+              - generic [ref=e438]:
+                - generic [ref=e439] [cursor=pointer]: 
+                - generic [ref=e440]: "55"
+              - generic [ref=e442]: "56"
+              - generic [ref=e444]: "57"
+              - generic [ref=e446]: "58"
+              - generic [ref=e448]: "59"
+              - generic [ref=e450]: "60"
+              - generic [ref=e451]:
+                - generic [ref=e452] [cursor=pointer]: 
+                - generic [ref=e453]: "61"
+              - generic [ref=e454]:
+                - generic [ref=e455] [cursor=pointer]: 
+                - generic [ref=e456]: "62"
+              - generic [ref=e458]: "63"
+            - generic [ref=e307]:
+              - generic [ref=e658]: import React from 'react';
+              - generic [ref=e660]: import RevenueChart from '@/components/RevenueChart';
+              - generic [ref=e662]: import MetricCard from '@/components/MetricCard';
+              - generic [ref=e664]: "import { TrendingUp, DollarSign, Target, Activity } from 'lucide-react';"
+              - generic [ref=e667]: "const RevenueDashboard = () => {"
+              - generic [ref=e669]: const metrics = [
+              - generic [ref=e671]: "{"
+              - generic [ref=e673]: "label: 'Total Revenue',"
+              - generic [ref=e675]: "value: '$124,500',"
+              - generic [ref=e677]: "change: '+12.5%',"
+              - generic [ref=e679]: "icon: DollarSign,"
+              - generic [ref=e681]: "positive: true,"
+              - generic [ref=e683]: "},"
+              - generic [ref=e685]: "{"
+              - generic [ref=e687]: "label: 'Average Order Value',"
+              - generic [ref=e689]: "value: '$1,245',"
+              - generic [ref=e691]: "change: '+8.2%',"
+              - generic [ref=e693]: "icon: TrendingUp,"
+              - generic [ref=e695]: "positive: true,"
+              - generic [ref=e697]: "},"
+              - generic [ref=e699]: "{"
+              - generic [ref=e701]: "label: 'Monthly Target',"
+              - generic [ref=e703]: "value: '$150,000',"
+              - generic [ref=e705]: "change: '83% reached',"
+              - generic [ref=e707]: "icon: Target,"
+              - generic [ref=e709]: "positive: true,"
+              - generic [ref=e711]: "},"
+              - generic [ref=e713]: "{"
+              - generic [ref=e715]: "label: 'Growth Rate',"
+              - generic [ref=e717]: "value: '15.3%',"
+              - generic [ref=e719]: "change: '+2.1% from last month',"
+              - generic [ref=e721]: "icon: Activity,"
+              - generic [ref=e723]: "positive: true,"
+              - generic [ref=e725]: "},"
+              - generic [ref=e727]: "];"
+              - generic [ref=e730]: const chartData = [
+              - generic [ref=e732]: "{ month: 'Jan', revenue: 45000 },"
+              - generic [ref=e734]: "{ month: 'Feb', revenue: 52000 },"
+              - generic [ref=e736]: "{ month: 'Mar', revenue: 48000 },"
+              - generic [ref=e738]: "{ month: 'Apr', revenue: 61000 },"
+              - generic [ref=e740]: "{ month: 'May', revenue: 55000 },"
+              - generic [ref=e742]: "{ month: 'Jun', revenue: 67000 },"
+              - generic [ref=e744]: "{ month: 'Jul', revenue: 72000 },"
+              - generic [ref=e746]: "{ month: 'Aug', revenue: 68000 },"
+              - generic [ref=e748]: "{ month: 'Sep', revenue: 75000 },"
+              - generic [ref=e750]: "{ month: 'Oct', revenue: 82000 },"
+              - generic [ref=e752]: "{ month: 'Nov', revenue: 88000 },"
+              - generic [ref=e754]: "{ month: 'Dec', revenue: 124500 },"
+              - generic [ref=e756]: "];"
+              - generic [ref=e759]: return (
+              - generic [ref=e761]: <div className="space-y-6 max-w-7xl mx-auto">
+              - generic [ref=e763]: <div className="mb-8">
+              - generic [ref=e765]: <h1 className="text-3xl font-bold text-gray-900">Revenue Dashboard</h1>
+              - generic [ref=e767]: <p className="text-gray-600 mt-2">Track your monthly performance and key metrics</p>
+              - generic [ref=e769]: </div>
+              - generic [ref=e772]: "{/* Metrics Grid */}"
+              - generic [ref=e774]: <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              - generic [ref=e776]: "{metrics.map((metric, index) => ("
+              - generic [ref=e778]: "<MetricCard key={index} {...metric} />"
+            - textbox "Editor content" [ref=e329]: "</div> </div> ); }; export default RevenueDashboard;"
+  - generic [ref=e330]:
+    - alert
+    - alert

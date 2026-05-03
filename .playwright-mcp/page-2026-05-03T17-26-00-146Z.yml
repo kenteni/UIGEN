@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e135]
+  - generic [ref=e137]:
+    - generic [ref=e139]:
+      - heading "React Component Generator" [level=1] [ref=e141]
+      - generic [ref=e143]:
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e189]: Create a user profile card with avatar, name, bio, and social stats
+            - img [ref=e192]
+          - generic [ref=e195]:
+            - img [ref=e198]
+            - generic [ref=e202]:
+              - separator [ref=e208]
+              - generic [ref=e209]:
+                - paragraph [ref=e210]: "Done! Created a user profile card with:"
+                - list [ref=e211]:
+                  - listitem [ref=e212]: Avatar with gradient border and online status indicator
+                  - listitem [ref=e213]: Name and bio section
+                  - listitem [ref=e214]: Social stats (Followers, Following, Posts)
+                  - listitem [ref=e215]: Interactive social media icon buttons
+                  - listitem [ref=e216]: Follow/Message action buttons
+                  - listitem [ref=e217]: Dark themed design with emerald and blue accents
+        - generic [ref=e153]:
+          - textbox "Describe the React component you want to create..." [ref=e154]
+          - button [disabled] [ref=e155]:
+            - img [ref=e156]
+    - separator [ref=e159]
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - tablist [ref=e164]:
+          - tab "Preview" [ref=e165]
+          - tab "Code" [selected] [ref=e166]
+        - generic [ref=e167]:
+          - combobox [ref=e168]:
+            - img
+            - text: "Design #91644"
+            - img
+          - button "New Design" [ref=e169]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e170]:
+            - img
+      - generic [ref=e219]:
+        - generic [ref=e227] [cursor=pointer]:
+          - img [ref=e228]
+          - generic [ref=e233]: App.jsx
+        - separator [ref=e234]
+        - code [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e242]:
+              - generic [ref=e245]: "1"
+              - generic [ref=e247]: "2"
+              - generic [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]: 
+                - generic [ref=e250]: "3"
+              - generic [ref=e251]:
+                - generic [ref=e252] [cursor=pointer]: 
+                - generic [ref=e253]: "4"
+              - generic [ref=e254]:
+                - generic [ref=e255] [cursor=pointer]: 
+                - generic [ref=e256]: "5"
+              - generic [ref=e257]:
+                - generic [ref=e258] [cursor=pointer]: 
+                - generic [ref=e259]: "6"
+              - generic [ref=e261]: "7"
+              - generic [ref=e262]:
+                - generic [ref=e263] [cursor=pointer]: 
+                - generic [ref=e264]: "8"
+              - generic [ref=e266]: "9"
+              - generic [ref=e268]: "10"
+              - generic [ref=e270]: "11"
+              - generic [ref=e272]: "12"
+              - generic [ref=e274]: "13"
+              - generic [ref=e275]:
+                - generic [ref=e276] [cursor=pointer]: 
+                - generic [ref=e277]: "14"
+              - generic [ref=e279]: "15"
+              - generic [ref=e281]: "16"
+              - generic [ref=e282]:
+                - generic [ref=e283] [cursor=pointer]: 
+                - generic [ref=e284]: "17"
+              - generic [ref=e285]:
+                - generic [ref=e286] [cursor=pointer]: 
+                - generic [ref=e287]: "18"
+              - generic [ref=e288]:
+                - generic [ref=e289] [cursor=pointer]: 
+                - generic [ref=e290]: "19"
+              - generic [ref=e291]:
+                - generic [ref=e292] [cursor=pointer]: 
+                - generic [ref=e293]: "20"
+              - generic [ref=e295]: "21"
+              - generic [ref=e297]: "22"
+              - generic [ref=e299]: "23"
+              - generic [ref=e301]: "24"
+              - generic [ref=e303]: "25"
+              - generic [ref=e305]: "26"
+              - generic [ref=e307]: "27"
+              - generic [ref=e309]: "28"
+              - generic [ref=e311]: "29"
+              - generic [ref=e313]: "30"
+              - generic [ref=e314]:
+                - generic [ref=e315] [cursor=pointer]: 
+                - generic [ref=e316]: "31"
+              - generic [ref=e318]: "32"
+              - generic [ref=e320]: "33"
+              - generic [ref=e321]:
+                - generic [ref=e322] [cursor=pointer]: 
+                - generic [ref=e323]: "34"
+              - generic [ref=e325]: "35"
+              - generic [ref=e327]: "36"
+              - generic [ref=e329]: "37"
+              - generic [ref=e331]: "38"
+              - generic [ref=e333]: "39"
+              - generic [ref=e334]:
+                - generic [ref=e335] [cursor=pointer]: 
+                - generic [ref=e336]: "40"
+              - generic [ref=e337]:
+                - generic [ref=e338] [cursor=pointer]: 
+                - generic [ref=e339]: "41"
+              - generic [ref=e341]: "42"
+              - generic [ref=e343]: "43"
+              - generic [ref=e345]: "44"
+              - generic [ref=e346]:
+                - generic [ref=e347] [cursor=pointer]: 
+                - generic [ref=e348]: "45"
+              - generic [ref=e350]: "46"
+              - generic [ref=e352]: "47"
+              - generic [ref=e354]: "48"
+              - generic [ref=e355]:
+                - generic [ref=e356] [cursor=pointer]: 
+                - generic [ref=e357]: "49"
+              - generic [ref=e359]: "50"
+              - generic [ref=e361]: "51"
+              - generic [ref=e363]: "52"
+              - generic [ref=e365]: "53"
+              - generic [ref=e367]: "54"
+              - generic [ref=e369]: "55"
+              - generic [ref=e370]:
+                - generic [ref=e371] [cursor=pointer]: 
+                - generic [ref=e372]: "56"
+              - generic [ref=e373]:
+                - generic [ref=e374] [cursor=pointer]: 
+                - generic [ref=e375]: "57"
+              - generic [ref=e376]:
+                - generic [ref=e377] [cursor=pointer]: 
+                - generic [ref=e378]: "58"
+              - generic [ref=e380]: "59"
+              - generic [ref=e382]: "60"
+              - generic [ref=e384]: "61"
+              - generic [ref=e385]:
+                - generic [ref=e386] [cursor=pointer]: 
+                - generic [ref=e387]: "62"
+              - generic [ref=e388]:
+                - generic [ref=e389] [cursor=pointer]: 
+                - generic [ref=e390]: "63"
+              - generic [ref=e392]: "64"
+              - generic [ref=e394]: "65"
+            - generic [ref=e879]:
+              - generic [ref=e881]: import React from 'react';
+              - generic [ref=e884]: "export default function App() {"
+              - generic [ref=e886]: return (
+              - generic [ref=e888]: <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 flex items-center justify-center p-4">
+              - generic [ref=e890]: <div className="w-full max-w-sm">
+              - generic [ref=e892]: "{/* Card Container */}"
+              - generic [ref=e894]: <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 shadow-2xl">
+              - generic [ref=e898]: "{/* Decorative Background */}"
+              - generic [ref=e900]: <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/10 via-transparent to-blue-500/10 pointer-events-none" />
+              - generic [ref=e904]: "{/* Content */}"
+              - generic [ref=e906]: <div className="relative p-8">
+              - generic [ref=e910]: "{/* Avatar */}"
+              - generic [ref=e912]: <div className="flex justify-center mb-6">
+              - generic [ref=e914]: <div className="relative">
+              - generic [ref=e916]: <div className="w-24 h-24 rounded-full bg-gradient-to-br from-emerald-400 to-blue-500 p-1">
+              - generic [ref=e918]: <img
+              - generic [ref=e920]: src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
+              - generic [ref=e922]: alt="Avatar"
+              - generic [ref=e924]: className="w-full h-full rounded-full object-cover"
+              - generic [ref=e926]: />
+              - generic [ref=e928]: </div>
+              - generic [ref=e930]: <div className="absolute bottom-0 right-0 w-6 h-6 bg-emerald-400 rounded-full border-2 border-slate-800" />
+              - generic [ref=e932]: </div>
+              - generic [ref=e934]: </div>
+              - generic [ref=e937]: "{/* Name and Bio */}"
+              - generic [ref=e939]: <div className="text-center mb-6">
+              - generic [ref=e941]: <h2 className="text-2xl font-bold text-white mb-2">Alex Morgan</h2>
+              - generic [ref=e943]: <p className="text-slate-400 text-sm mb-3">Product Designer • Creative Thinker</p>
+              - generic [ref=e945]: <p className="text-slate-500 text-sm leading-relaxed">
+              - generic [ref=e947]: Crafting beautiful digital experiences. Coffee enthusiast & design lover.
+              - generic [ref=e949]: </p>
+              - generic [ref=e951]: </div>
+              - generic [ref=e954]: "{/* Stats */}"
+              - generic [ref=e956]: <div className="grid grid-cols-3 gap-4 mb-8 py-6 border-y border-slate-700">
+              - generic [ref=e958]: <div className="text-center">
+              - generic [ref=e960]: <div className="text-2xl font-bold text-emerald-400 mb-1">2.4K</div>
+              - generic [ref=e962]: <div className="text-xs text-slate-400 uppercase tracking-wide">Followers</div>
+              - generic [ref=e964]: </div>
+              - generic [ref=e966]: <div className="text-center">
+              - generic [ref=e968]: <div className="text-2xl font-bold text-blue-400 mb-1">482</div>
+              - generic [ref=e970]: <div className="text-xs text-slate-400 uppercase tracking-wide">Following</div>
+              - generic [ref=e972]: </div>
+              - generic [ref=e974]: <div className="text-center">
+              - generic [ref=e976]: <div className="text-2xl font-bold text-purple-400 mb-1">156</div>
+              - generic [ref=e978]: <div className="text-xs text-slate-400 uppercase tracking-wide">Posts</div>
+              - generic [ref=e980]: </div>
+              - generic [ref=e982]: </div>
+              - generic [ref=e985]: "{/* Social Icons */}"
+              - generic [ref=e987]: <div className="flex gap-3 justify-center mb-6">
+              - generic [ref=e989]: <button className="w-10 h-10 rounded-full bg-slate-700 hover:bg-slate-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors">
+              - generic [ref=e991]: <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              - generic [ref=e993]: <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7z" />
+              - generic [ref=e995]: </svg>
+              - generic [ref=e997]: </button>
+              - generic [ref=e999]: <button className="w-10 h-10 rounded-full bg-slate-700 hover:bg-slate-600 flex items-center justify-center text-slate-300 hover:text-white transition-colors">
+              - generic [ref=e1001]: <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              - generic [ref=e1003]: <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+              - generic [ref=e1005]: </svg>
+            - textbox "Editor content" [ref=e1007]
+  - generic [ref=e1008]:
+    - alert
+    - alert

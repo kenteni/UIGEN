@@ -1,0 +1,51 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - heading "React Component Generator" [level=1] [ref=e7]
+    - generic [ref=e9]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e18]: Create a card with a title and a description
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - img [ref=e27]
+          - generic [ref=e31]:
+            - separator [ref=e32]
+            - paragraph [ref=e34]: Done! Created a card component with a title and description styled with Tailwind CSS.
+        - generic [ref=e35]:
+          - generic [ref=e37]: Change the title
+          - img [ref=e40]
+        - generic [ref=e43]:
+          - img [ref=e46]
+          - paragraph [ref=e52]: What would you like the new title to be?
+        - generic [ref=e53]:
+          - generic [ref=e55]: New Card Title
+          - img [ref=e58]
+        - generic [ref=e61]:
+          - img [ref=e64]
+          - generic [ref=e68]:
+            - separator [ref=e69]
+            - paragraph [ref=e71]: Done!
+        - generic [ref=e72]:
+          - generic [ref=e74]: Make it blue
+          - img [ref=e77]
+        - img [ref=e83]
+      - generic [ref=e90]:
+        - textbox "Describe the React component you want to create..." [ref=e91]
+        - button [disabled] [ref=e92]:
+          - img [ref=e93]
+  - separator [ref=e96]
+  - generic [ref=e98]:
+    - generic [ref=e99]:
+      - tablist [ref=e101]:
+        - tab "Preview" [selected] [ref=e102]
+        - tab "Code" [ref=e103]
+      - generic [ref=e104]:
+        - button "New Design" [ref=e105]:
+          - img
+          - text: New Design
+        - button "Sign out" [ref=e106]:
+          - img
+    - iframe [ref=e109]:
+      - generic [ref=f1e4]:
+        - heading "New Card Title" [level=2] [ref=f1e5]
+        - paragraph [ref=f1e6]: This is a description of the card. It provides additional context and information about the card's content.

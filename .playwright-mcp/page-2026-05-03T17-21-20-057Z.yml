@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e143]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e146]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e156]:
+              - paragraph [ref=e158]: I'll create a dashboard widget with monthly revenue stats, a chart, and key metrics.
+              - separator [ref=e159]
+              - paragraph [ref=e161]: "Now I'll create the RevenueDashboard component with chart and metrics:"
+              - separator [ref=e168]
+              - separator [ref=e169]
+              - separator [ref=e170]
+              - generic [ref=e171]:
+                - paragraph [ref=e172]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e173]:
+                  - listitem [ref=e174]:
+                    - strong [ref=e175]: 4 Key Metrics Cards
+                    - text: displaying current month revenue, YTD total, monthly average, and target rate
+                  - listitem [ref=e176]:
+                    - strong [ref=e177]: Interactive Bar Chart
+                    - text: showing 12 months of revenue data with hover tooltips
+                  - listitem [ref=e178]:
+                    - strong [ref=e179]: Quick Stats Section
+                    - text: highlighting highest month, growth rate, and consistency
+                  - listitem [ref=e180]:
+                    - strong [ref=e181]: Dark theme
+                    - text: with gradient accents and smooth transitions
+                  - listitem [ref=e182]:
+                    - strong [ref=e183]: Responsive design
+                    - text: that works on mobile, tablet, and desktop
+                - paragraph [ref=e184]: The chart is fully interactive with hover effects, and all components use Tailwind CSS for styling.
+          - generic [ref=e185]:
+            - generic [ref=e187]: Make the chart trend upward from left to right
+            - img [ref=e190]
+          - generic [ref=e193]:
+            - img [ref=e196]
+            - generic [ref=e200]:
+              - separator [ref=e201]
+              - separator [ref=e210]
+              - separator [ref=e211]
+              - paragraph [ref=e213]: Done! The chart now trends steadily upward from left to right with consistent growth throughout the year.
+          - generic [ref=e776]:
+            - generic [ref=e778]: "Fix the bar chart in RevenueChart.jsx — the bars are hanging downward from the top. The chart container needs `items-end` so bars grow upward from the baseline. Add `items-end` to the outer flex container and `justify-end` to each bar column so the bars sit at the bottom."
+            - img [ref=e781]
+          - generic [ref=e784]:
+            - img [ref=e787]
+            - generic [ref=e791]:
+              - separator [ref=e792]
+              - paragraph [ref=e794]: Done! The bars now grow upward from the baseline instead of hanging down.
+          - generic [ref=e795]:
+            - generic [ref=e797]: "The chart bars are gone now. Rewrite RevenueChart.jsx using this correct pattern for a bottom-anchored bar chart: the outer container should be `flex items-end gap-1 h-48` (row flex, items aligned to bottom). Each bar column is a plain `div` with a percentage height via inline style. Remove any nested flex-col wrapper around individual bars."
+            - img [ref=e800]
+          - generic [ref=e803]:
+            - img [ref=e806]
+            - generic [ref=e810]:
+              - separator [ref=e811]
+              - paragraph [ref=e813]: Done! The chart now uses the correct pattern with bars anchored at the bottom and growing upward.
+        - generic [ref=e107]:
+          - textbox "Describe the React component you want to create..." [ref=e108]
+          - button [disabled] [ref=e109]:
+            - img [ref=e110]
+    - separator [ref=e113]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - tablist [ref=e118]:
+          - tab "Preview" [selected] [ref=e119]
+          - tab "Code" [ref=e120]
+        - generic [ref=e121]:
+          - combobox [ref=e122]:
+            - img
+            - text: "Design #63458"
+            - img
+          - button "New Design" [ref=e123]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e124]:
+            - img
+      - iframe [ref=e775]:
+        - generic [ref=f8e4]:
+          - heading "Revenue Analytics" [level=1] [ref=f8e5]
+          - paragraph [ref=f8e6]: Track your monthly revenue performance
+          - generic [ref=f8e7]:
+            - generic [ref=f8e8]:
+              - generic [ref=f8e10]:
+                - generic [ref=f8e11]:
+                  - paragraph [ref=f8e12]: Current Month
+                  - paragraph [ref=f8e13]: $78k
+                  - paragraph [ref=f8e14]: +11.4%
+                - generic [ref=f8e15]: 📈
+              - generic [ref=f8e17]:
+                - generic [ref=f8e18]:
+                  - paragraph [ref=f8e19]: Total YTD
+                  - paragraph [ref=f8e20]: $533k
+                  - paragraph [ref=f8e21]: Full year
+                - generic [ref=f8e22]: 💰
+              - generic [ref=f8e24]:
+                - generic [ref=f8e25]:
+                  - paragraph [ref=f8e26]: Monthly Avg
+                  - paragraph [ref=f8e27]: $44k
+                  - paragraph [ref=f8e28]: Year average
+                - generic [ref=f8e29]: 📊
+              - generic [ref=f8e31]:
+                - generic [ref=f8e32]:
+                  - paragraph [ref=f8e33]: Target Rate
+                  - paragraph [ref=f8e34]: 240%
+                  - paragraph [ref=f8e35]: Above target
+                - generic [ref=f8e36]: 🎯
+            - generic [ref=f8e37]:
+              - generic [ref=f8e38]:
+                - generic [ref=f8e39]:
+                  - heading "Revenue Trend" [level=2] [ref=f8e40]
+                  - paragraph [ref=f8e41]: Monthly performance across 12 months
+                - generic [ref=f8e42]:
+                  - button "This Year" [ref=f8e43] [cursor=pointer]
+                  - button "Last Year" [ref=f8e44] [cursor=pointer]
+              - generic [ref=f8e45]:
+                - generic [ref=f8e46]:
+                  - generic [ref=f8e47] [cursor=pointer]:
+                    - generic: $18k
+                  - generic [ref=f8e48] [cursor=pointer]:
+                    - generic: $22k
+                  - generic [ref=f8e49] [cursor=pointer]:
+                    - generic: $25k
+                  - generic [ref=f8e50] [cursor=pointer]:
+                    - generic: $29k
+                  - generic [ref=f8e51] [cursor=pointer]:
+                    - generic: $34k
+                  - generic [ref=f8e52] [cursor=pointer]:
+                    - generic: $39k
+                  - generic [ref=f8e53] [cursor=pointer]:
+                    - generic: $45k
+                  - generic [ref=f8e54] [cursor=pointer]:
+                    - generic: $51k
+                  - generic [ref=f8e55] [cursor=pointer]:
+                    - generic: $58k
+                  - generic [ref=f8e56] [cursor=pointer]:
+                    - generic: $64k
+                  - generic [ref=f8e57] [cursor=pointer]:
+                    - generic: $70k
+                  - generic [ref=f8e58] [cursor=pointer]:
+                    - generic: $78k
+                - generic [ref=f8e59]:
+                  - paragraph [ref=f8e61]: Jan
+                  - paragraph [ref=f8e63]: Feb
+                  - paragraph [ref=f8e65]: Mar
+                  - paragraph [ref=f8e67]: Apr
+                  - paragraph [ref=f8e69]: May
+                  - paragraph [ref=f8e71]: Jun
+                  - paragraph [ref=f8e73]: Jul
+                  - paragraph [ref=f8e75]: Aug
+                  - paragraph [ref=f8e77]: Sep
+                  - paragraph [ref=f8e79]: Oct
+                  - paragraph [ref=f8e81]: Nov
+                  - paragraph [ref=f8e83]: Dec
+            - generic [ref=f8e84]:
+              - generic [ref=f8e85]:
+                - paragraph [ref=f8e86]: Highest Month
+                - paragraph [ref=f8e87]: $78k
+                - paragraph [ref=f8e88]: December 2024
+              - generic [ref=f8e89]:
+                - paragraph [ref=f8e90]: Growth Rate
+                - paragraph [ref=f8e91]: +333%
+                - paragraph [ref=f8e92]: Jan to Dec
+              - generic [ref=f8e93]:
+                - paragraph [ref=f8e94]: Consistency
+                - paragraph [ref=f8e95]: 100%
+                - paragraph [ref=f8e96]: On target months
+  - generic [ref=e209]:
+    - alert
+    - alert

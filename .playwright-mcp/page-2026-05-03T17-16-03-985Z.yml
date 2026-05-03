@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e77] [cursor=pointer]:
+    - button "Open issues overlay" [ref=e78]:
+      - img [ref=e80]
+      - generic [ref=e82]:
+        - generic [ref=e83]: "0"
+        - generic [ref=e84]: "1"
+      - generic [ref=e85]: Issue
+    - button "Collapse issues badge" [ref=e86]:
+      - img [ref=e87]
+  - alert [ref=e89]
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - heading "React Component Generator" [level=1] [ref=e95]
+      - generic [ref=e97]:
+        - generic [ref=e140]:
+          - generic [ref=e141]:
+            - generic [ref=e143]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e146]
+          - generic [ref=e149]:
+            - img [ref=e152]
+            - generic [ref=e156]:
+              - paragraph [ref=e158]: I'll create a dashboard widget with monthly revenue stats, a chart, and key metrics.
+              - separator [ref=e159]
+              - paragraph [ref=e161]: "Now I'll create the RevenueDashboard component with chart and metrics:"
+        - generic [ref=e107]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e108]
+          - button [disabled] [ref=e109]:
+            - img [ref=e110]
+    - separator [ref=e113]
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - tablist [ref=e118]:
+          - tab "Preview" [selected] [ref=e119]
+          - tab "Code" [ref=e120]
+        - generic [ref=e121]:
+          - combobox [ref=e122]:
+            - img
+            - text: "Design #63458"
+            - img
+          - button "New Design" [ref=e123]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e124]:
+            - img
+      - iframe [ref=e167]:
+        - generic [ref=f6e4]:
+          - heading "Revenue Analytics" [level=1] [ref=f6e5]
+          - paragraph [ref=f6e6]: Track your monthly revenue performance

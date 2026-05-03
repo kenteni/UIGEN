@@ -1,0 +1,122 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - heading "React Component Generator" [level=1] [ref=e7]
+    - generic [ref=e9]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e18]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+          - img [ref=e21]
+        - generic [ref=e24]:
+          - img [ref=e27]
+          - generic [ref=e31]:
+            - paragraph [ref=e33]: I'll create a dashboard widget with monthly revenue stats, including a chart and key metrics.
+            - separator [ref=e34]
+            - separator [ref=e35]
+            - separator [ref=e36]
+            - separator [ref=e37]
+            - generic [ref=e38]:
+              - paragraph [ref=e39]: "Done! I've created a revenue dashboard with:"
+              - list [ref=e40]:
+                - listitem [ref=e41]:
+                  - strong [ref=e42]: 4 Metric Cards
+                  - text: ": Displaying total revenue, average order value, monthly target progress, and growth rate with icons and trend indicators"
+                - listitem [ref=e43]:
+                  - strong [ref=e44]: Bar Chart
+                  - text: ": Showing monthly revenue trends for all 12 months with hover tooltips"
+                - listitem [ref=e45]:
+                  - strong [ref=e46]: Responsive Layout
+                  - text: ": Grid adapts from 1 column on mobile to 4 columns on desktop"
+                - listitem [ref=e47]:
+                  - strong [ref=e48]: Clean Design
+                  - text: ": Uses Tailwind CSS with a professional color scheme and smooth interactions"
+              - paragraph [ref=e49]: The dashboard includes sample data for the full year and uses lucide-react icons for visual appeal.
+      - generic [ref=e52]:
+        - textbox "Describe the React component you want to create..." [ref=e53]
+        - button [disabled] [ref=e54]:
+          - img [ref=e55]
+  - separator [ref=e58]
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - tablist [ref=e63]:
+        - tab "Preview" [selected] [ref=e64]
+        - tab "Code" [ref=e65]
+      - generic [ref=e66]:
+        - button "New Design" [ref=e67]:
+          - img
+          - text: New Design
+        - button "Sign out" [ref=e68]:
+          - img
+    - iframe [ref=e71]:
+      - generic [ref=f4e4]:
+        - generic [ref=f4e5]:
+          - heading "Revenue Dashboard" [level=1] [ref=f4e6]
+          - paragraph [ref=f4e7]: Track your monthly performance and key metrics
+        - generic [ref=f4e8]:
+          - generic [ref=f4e10]:
+            - generic [ref=f4e11]:
+              - paragraph [ref=f4e12]: Total Revenue
+              - paragraph [ref=f4e13]: $124,500
+              - paragraph [ref=f4e14]: +12.5%
+            - img [ref=f4e16]
+          - generic [ref=f4e19]:
+            - generic [ref=f4e20]:
+              - paragraph [ref=f4e21]: Average Order Value
+              - paragraph [ref=f4e22]: $1,245
+              - paragraph [ref=f4e23]: +8.2%
+            - img [ref=f4e25]
+          - generic [ref=f4e29]:
+            - generic [ref=f4e30]:
+              - paragraph [ref=f4e31]: Monthly Target
+              - paragraph [ref=f4e32]: $150,000
+              - paragraph [ref=f4e33]: 83% reached
+            - img [ref=f4e35]
+          - generic [ref=f4e40]:
+            - generic [ref=f4e41]:
+              - paragraph [ref=f4e42]: Growth Rate
+              - paragraph [ref=f4e43]: 15.3%
+              - paragraph [ref=f4e44]: +2.1% from last month
+            - img [ref=f4e46]
+        - generic [ref=f4e48]:
+          - heading "Monthly Revenue Trend" [level=2] [ref=f4e49]
+          - generic [ref=f4e50]:
+            - generic [ref=f4e51]:
+              - generic [ref=f4e52]:
+                - 'generic "Jan: $45 000" [ref=f4e54] [cursor=pointer]'
+                - generic [ref=f4e55]: Jan
+              - generic [ref=f4e56]:
+                - 'generic "Feb: $52 000" [ref=f4e58] [cursor=pointer]'
+                - generic [ref=f4e59]: Feb
+              - generic [ref=f4e60]:
+                - 'generic "Mar: $48 000" [ref=f4e62] [cursor=pointer]'
+                - generic [ref=f4e63]: Mar
+              - generic [ref=f4e64]:
+                - 'generic "Apr: $61 000" [ref=f4e66] [cursor=pointer]'
+                - generic [ref=f4e67]: Apr
+              - generic [ref=f4e68]:
+                - 'generic "May: $55 000" [ref=f4e70] [cursor=pointer]'
+                - generic [ref=f4e71]: May
+              - generic [ref=f4e72]:
+                - 'generic "Jun: $67 000" [ref=f4e74] [cursor=pointer]'
+                - generic [ref=f4e75]: Jun
+              - generic [ref=f4e76]:
+                - 'generic "Jul: $72 000" [ref=f4e78] [cursor=pointer]'
+                - generic [ref=f4e79]: Jul
+              - generic [ref=f4e80]:
+                - 'generic "Aug: $68 000" [ref=f4e82] [cursor=pointer]'
+                - generic [ref=f4e83]: Aug
+              - generic [ref=f4e84]:
+                - 'generic "Sep: $75 000" [ref=f4e86] [cursor=pointer]'
+                - generic [ref=f4e87]: Sep
+              - generic [ref=f4e88]:
+                - 'generic "Oct: $82 000" [ref=f4e90] [cursor=pointer]'
+                - generic [ref=f4e91]: Oct
+              - generic [ref=f4e92]:
+                - 'generic "Nov: $88 000" [ref=f4e94] [cursor=pointer]'
+                - generic [ref=f4e95]: Nov
+              - generic [ref=f4e96]:
+                - 'generic "Dec: $124 500" [ref=f4e98] [cursor=pointer]'
+                - generic [ref=f4e99]: Dec
+            - generic [ref=f4e100]:
+              - generic [ref=f4e101]: $0
+              - generic [ref=f4e102]: $62 250
+              - generic [ref=f4e103]: $124 500

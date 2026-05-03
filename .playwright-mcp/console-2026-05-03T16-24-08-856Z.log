@@ -1,0 +1,66 @@
+[     536ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[     942ms] [ERROR] You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[   14498ms] TypeError: aiHandleSubmit is not a function
+    at handleSubmit (http://localhost:3000/_next/static/chunks/src_6c3eeeb2._.js:865:9)
+    at onSubmit (http://localhost:3000/_next/static/chunks/src_6c3eeeb2._.js:1464:9)
+    at executeDispatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8965:13)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:886:74)
+    at processDispatchQueue (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8991:41)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9286:13
+    at batchedUpdates$1 (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2208:42)
+    at dispatchEventForPluginEventSystem (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9067:9)
+    at dispatchEvent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:11224:37)
+    at dispatchDiscreteEvent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:11206:64)
+    at handleKeyDown (http://localhost:3000/_next/static/chunks/src_6c3eeeb2._.js:1370:22)
+    at executeDispatch (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8965:13)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:886:74)
+    at processDispatchQueue (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:8991:41)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9286:13
+    at batchedUpdates$1 (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:2211:44)
+    at dispatchEventForPluginEventSystem (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:9067:9)
+    at dispatchEvent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:11224:37)
+    at dispatchDiscreteEvent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:11206:64)
+[   15005ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[   15212ms] [ERROR] You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b0daae9a._.js:2359
+[  136243ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/:0
+[  148245ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/:0
+[  199255ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  200975ms] [LOG] [Fast Refresh] done in 1834ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  201082ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  201083ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  202280ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  204431ms] [LOG] [Fast Refresh] done in 2251ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  204534ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  204901ms] [LOG] [Fast Refresh] done in 471ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  205006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5949
+[  205734ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/:0
+[  205756ms] [LOG] [Fast Refresh] done in 854ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5809
+[  207793ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/cmopp07t40002edksrn9u8l2m?_rsc=vusbg:0
+[  209598ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/cmopp07t40002edksrn9u8l2m?_rsc=f1dk0:0
+[  211829ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/cmopp07t40002edksrn9u8l2m:0
+[  211946ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_4411d9bd._.js:15305
+[  212017ms] Error: Jest worker encountered 2 child process exceptions, exceeding retry limit
+    at ChildProcessWorker.initialize (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:11580)
+    at ChildProcessWorker._onExit (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:12545)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[  212018ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2207
+[  259206ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/cmopp07t40002edksrn9u8l2m:0
+[  259299ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_4411d9bd._.js:15305
+[  259311ms] Error: Jest worker encountered 2 child process exceptions, exceeding retry limit
+    at ChildProcessWorker.initialize (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:11580)
+    at ChildProcessWorker._onExit (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:12545)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[  259312ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2207
+[  279230ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/cmopp07t40002edksrn9u8l2m:0
+[  279326ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_4411d9bd._.js:15305
+[  279338ms] Error: Jest worker encountered 2 child process exceptions, exceeding retry limit
+    at ChildProcessWorker.initialize (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:11580)
+    at ChildProcessWorker._onExit (file://D:\anth\uigen\node_modules\next\dist\compiled\jest-worker\index.js:1:12545)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[  279338ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_d0aa886c._.js:2207

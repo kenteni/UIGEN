@@ -1,0 +1,109 @@
+- generic [ref=e1]:
+  - alert [ref=e111]
+  - generic [ref=e113]:
+    - generic [ref=e115]:
+      - heading "React Component Generator" [level=1] [ref=e117]
+      - generic [ref=e119]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: Create a dashboard widget showing monthly revenue stats with a chart and key metrics
+            - img [ref=e168]
+          - generic [ref=e171]:
+            - img [ref=e174]
+            - generic [ref=e178]:
+              - paragraph [ref=e180]: I'll create a dashboard widget with monthly revenue stats, including a chart and key metrics.
+              - separator [ref=e181]
+              - separator [ref=e188]
+              - separator [ref=e189]
+              - separator [ref=e190]
+              - generic [ref=e191]:
+                - paragraph [ref=e192]: "Done! I've created a revenue dashboard with:"
+                - list [ref=e193]:
+                  - listitem [ref=e194]:
+                    - strong [ref=e195]: 4 Metric Cards
+                    - text: ": Displaying total revenue, average order value, monthly target progress, and growth rate with icons and trend indicators"
+                  - listitem [ref=e196]:
+                    - strong [ref=e197]: Bar Chart
+                    - text: ": Showing monthly revenue trends for all 12 months with hover tooltips"
+                  - listitem [ref=e198]:
+                    - strong [ref=e199]: Responsive Layout
+                    - text: ": Grid adapts from 1 column on mobile to 4 columns on desktop"
+                  - listitem [ref=e200]:
+                    - strong [ref=e201]: Clean Design
+                    - text: ": Uses Tailwind CSS with a professional color scheme and smooth interactions"
+                - paragraph [ref=e202]: The dashboard includes sample data for the full year and uses lucide-react icons for visual appeal.
+        - generic [ref=e129]:
+          - textbox "Describe the React component you want to create..." [ref=e130]
+          - button [disabled] [ref=e131]:
+            - img [ref=e132]
+    - separator [ref=e135]
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - tablist [ref=e140]:
+          - tab "Preview" [ref=e141]
+          - tab "Code" [active] [selected] [ref=e142]
+        - generic [ref=e143]:
+          - combobox [ref=e144]:
+            - img
+            - text: "Design #85266"
+            - img
+          - button "New Design" [ref=e145]:
+            - img
+            - text: New Design
+          - button "Sign out" [ref=e146]:
+            - img
+      - generic [ref=e203]:
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211] [cursor=pointer]:
+              - img [ref=e212]
+              - img [ref=e214]
+              - generic [ref=e216]: components
+            - generic [ref=e217]:
+              - generic [ref=e219] [cursor=pointer]:
+                - img [ref=e220]
+                - generic [ref=e225]: MetricCard.jsx
+              - generic [ref=e227] [cursor=pointer]:
+                - img [ref=e228]
+                - generic [ref=e233]: RevenueChart.jsx
+              - generic [ref=e235] [cursor=pointer]:
+                - img [ref=e236]
+                - generic [ref=e241]: RevenueDashboard.jsx
+          - generic [ref=e243] [cursor=pointer]:
+            - img [ref=e244]
+            - generic [ref=e249]: App.jsx
+        - separator [ref=e250]
+        - code [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e258]:
+              - generic [ref=e261]: "1"
+              - generic [ref=e263]: "2"
+              - generic [ref=e265]: "3"
+              - generic [ref=e266]:
+                - generic [ref=e267] [cursor=pointer]: 
+                - generic [ref=e268]: "4"
+              - generic [ref=e269]:
+                - generic [ref=e270] [cursor=pointer]: 
+                - generic [ref=e271]: "5"
+              - generic [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]: 
+                - generic [ref=e274]: "6"
+              - generic [ref=e276]: "7"
+              - generic [ref=e278]: "8"
+              - generic [ref=e280]: "9"
+              - generic [ref=e282]: "10"
+              - generic [ref=e284]: "11"
+            - generic [ref=e307]:
+              - generic [ref=e309]: import React from 'react';
+              - generic [ref=e311]: import RevenueDashboard from '@/components/RevenueDashboard';
+              - generic [ref=e314]: "export default function App() {"
+              - generic [ref=e316]: return (
+              - generic [ref=e318]: <div className="min-h-screen bg-gray-50 p-6">
+              - generic [ref=e320]: <RevenueDashboard />
+              - generic [ref=e322]: </div>
+              - generic [ref=e324]: );
+              - generic [ref=e326]: "}"
+            - textbox "Editor content" [ref=e329]
+  - generic [ref=e330]:
+    - alert
+    - alert
