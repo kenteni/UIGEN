@@ -33,6 +33,16 @@ interface MainContentProps {
 export function MainContent({ user, project }: MainContentProps) {
   const [activeView, setActiveView] = useState<"preview" | "code">("preview");
 
+  // When the user clicks anywhere in the header bar, ensure the iframe loses
+  // focus first. Without this, browsers that give the iframe document focus
+  // (e.g. after the user interacts with the preview) may swallow the first
+  // click on the tab buttons, making the toggle feel broken.
+  const handleHeaderMouseDown = () => {
+    if (document.activeElement instanceof HTMLIFrameElement) {
+      document.activeElement.blur();
+    }
+  };
+
   return (
     <FileSystemProvider initialData={project?.data}>
       <ChatProvider projectId={project?.id} initialMessages={project?.messages}>
@@ -59,7 +69,7 @@ export function MainContent({ user, project }: MainContentProps) {
             <ResizablePanel defaultSize={65}>
               <div className="h-full flex flex-col bg-white">
                 {/* Top Bar */}
-                <div className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50">
+                <div className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50" onMouseDown={handleHeaderMouseDown}>
                   <Tabs
                     value={activeView}
                     onValueChange={(v) =>
